@@ -24,6 +24,13 @@ As recommends by DarkSky you can use a proxy server to consume the API and then 
 Test it here: current temperature for [Berlin (54.62, 8.96)](https://dci-fbw12-darksky.now.sh/?54.62,8.96).
 
 
+
+ ## Learn Now
+ To start using Now:
+ - Register an account on [Zeit](https://zeit.co/signup)
+ - Download and install the [Now Desktop client](https://zeit.co/download)
+ - Check the [documentation](https://zeit.co/docs)
+
 ## Setup and deploy on Now
 
 - Clone this repository
@@ -36,7 +43,4 @@ You should see a message
 `> Success! Secret darksky-api-key added!`.  
  You can deploy your proxy using `now`
 
-
- ## Learn Now
- To start using Now, check the [documentation](https://zeit.co/docs)
 
