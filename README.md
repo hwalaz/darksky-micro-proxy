@@ -14,14 +14,16 @@ From the [Dark Sky FAQ](https://darksky.net/dev/docs/faq#cross-origin)
 > To prevent API key abuse, you should set up a proxy server to make calls to our API behind the scenes. 
 > Then you can provide forecasts to your clients without exposing your API key.
 
+
+## The Solution
+
+As recommends by Dark Sky you can use a proxy server to consume the API and then pass the JSON to the client. **Darksky Micro Proxy** is a microservice proxy created with [Micro](https://github.com/zeit/micro) and hosted on [Zeit | Now](https://zeit.co/now). It will proxy your request (latitude,longitude) to Darksky API and will give you back their response.
+
+
 ## Use it
 
 Test it here: current temperature for [Berlin (54.62, 8.96)](https://dci-fbw12-darksky.now.sh/?54.62,8.96).
 
-
-## The Solution
-
-As recommends by Dark Sky you can use a proxy server to call the API and pass the JSON to the client. **Darksky Micro Proxy** is a microservice proxy created with [Micro](https://github.com/zeit/micro) and hosted on [Zeit | Now](https://zeit.co/now).
 
 ## Setup and deploy on Now
 
