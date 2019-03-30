@@ -34,6 +34,6 @@ Test it here: current temperature for [Berlin (54.62, 8.96)](https://dci-fbw12-d
  `> Ready! Listening on http://0.0.0.0:3001`
 - To deploy your own Darksky proxy to [Now](https://zeit.co/now) edit `now.json` and change name/alias. With the *Now-Cli* save your secret `now secret add darksky-api-key YOUR_API_KEY`.
 You should see a message   
-`> Success! Secret darksky-api-key added!`.
+`> Success! Secret darksky-api-key added!`.  
  You can deploy your proxy with `now`
 
