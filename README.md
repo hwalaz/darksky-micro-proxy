@@ -2,12 +2,12 @@
 
 ## The Issue
 
-If you try to create a webapp using Darksky API, you will soon realize that you have a big issue to deal with: they disabled [cross-origin resource sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+If you try to create a webapp using DarkSky API, you will soon realize that you have a big issue to deal with: they disabled [cross-origin resource sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 on their servers.
 
 You will see a `No 'Access-Control-Allow-Origin' header is present on the requested resource` message in console when you try to fetch weather data from the api. 
 
-From the [Dark Sky FAQ](https://darksky.net/dev/docs/faq#cross-origin)
+From the [DarkSky FAQ](https://darksky.net/dev/docs/faq#cross-origin)
 > We take security very seriously at Dark Sky. As a security precaution we have disabled cross-origin resource sharing (CORS) on our servers.
 > Your API call includes your secret API key as part of the request. If you were to make API calls from client-facing code, anyone could extract and use your API key, which would result in a bill that you'd have to pay. We disable CORS to help keep your API secret key a secret.
 > To prevent API key abuse, you should set up a proxy server to make calls to our API behind the scenes. 
