@@ -1,0 +1,19 @@
+{
+  "name": "darksky-micro-proxy",
+  "private": true,
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec 'micro -p 3001' -w index.js"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "micro": "^6.1.0",
+    "now-env": "^3.1.0"
+  },
+  "author": "Leandro <leandro.frigerio@digitalcareerinstitute.org>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

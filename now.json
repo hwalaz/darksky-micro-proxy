@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "dci-fbw12-darksky",
+  "alias": "dci-fbw12-darksky.now.sh",
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node"
+    }
+  ],
+  "env": {
+    "DARKSKY_API_KEY": "@darksky-api-key"
+  }
+}
