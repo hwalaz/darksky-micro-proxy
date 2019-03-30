@@ -16,7 +16,7 @@ From the [Dark Sky FAQ](https://darksky.net/dev/docs/faq#cross-origin)
 
 ## The Solution
 
-As recommends by Dark Sky you can use a proxy server to consume the API and then pass the JSON to the client. **Darksky Micro Proxy** is a microservice proxy created with [Micro](https://github.com/zeit/micro) and hosted on [Zeit | Now](https://zeit.co/now). It will proxy your request (latitude,longitude) to Darksky API and will give you back their response.
+As recommends by DarkSky you can use a proxy server to consume the API and then pass the JSON to the client. **Darksky Micro Proxy** is a microservice proxy created with [Micro](https://github.com/zeit/micro) and hosted on [Zeit | Now](https://zeit.co/now). It will proxy your request (latitude,longitude) to Darksky API and will give you back their response.
 
 
 ## Use it
