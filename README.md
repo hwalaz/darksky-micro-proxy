@@ -30,7 +30,10 @@ Test it here: current temperature for [Berlin (54.62, 8.96)](https://dci-fbw12-d
 - Clone this repository
 - Register at https://darksky.net/dev/ to get you **Api Key**
 - Local development: create a now-secrets.json and insert your **Darksky API key**, check [Now Env documentation](https://github.com/zeit/now-env) for details
-- Run it locally with `npm dev` you should see a message `> Ready! Listening on http://0.0.0.0:3001`
+- Run it locally with `npm dev` you should see a message  
+ `> Ready! Listening on http://0.0.0.0:3001`
 - To deploy your own Darksky proxy to [Now](https://zeit.co/now) edit `now.json` and change name/alias. With the *Now-Cli* save your secret `now secret add darksky-api-key YOUR_API_KEY`.
-You should see a message `> Success! Secret darksky-api-key added!`. You can deploy your proxy with `now`
+You should see a message 
+`> Success! Secret darksky-api-key added!`.
+ You can deploy your proxy with `now`
 
