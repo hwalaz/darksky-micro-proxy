@@ -19,11 +19,6 @@ From the [DarkSky FAQ](https://darksky.net/dev/docs/faq#cross-origin)
 As recommends by DarkSky you can use a proxy server to consume the API and then pass the JSON to the client. **Darksky Micro Proxy** is a microservice proxy created with [Micro](https://github.com/zeit/micro) and hosted on [Zeit | Now](https://zeit.co/now). It will proxy your request (latitude,longitude) to Darksky API and will give you back their response.
 
 
-## Use it
-
-Test it here: current temperature for [Berlin (54.62, 8.96)](https://dci-fbw12-darksky.now.sh/?54.62,8.96).
-
-
 
  ## Learn Now
  To start using Now:
@@ -38,6 +33,7 @@ Test it here: current temperature for [Berlin (54.62, 8.96)](https://dci-fbw12-d
 - Local development: create a `now-secrets.json`file and insert your **Darksky API key**, check [Now Env documentation](https://github.com/zeit/now-env) for details
 - Run the microservice locally locally with `npm run dev`: you should see a message  
  `> Ready! Listening on http://0.0.0.0:3001`
+- Test it here: current temperature for [Berlin (54.62, 8.96)](https://localhost:3001/?54.62,8.96).
 - To deploy your own Darksky proxy to [Now](https://zeit.co/now) edit `now.json` and change name/alias. With the *Now-Cli* save your secret `now secret add darksky-api-key YOUR_API_KEY`.
 You should see a message   
 `> Success! Secret darksky-api-key added!`.  
