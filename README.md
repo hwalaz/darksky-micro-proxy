@@ -32,11 +32,12 @@ As recommends by DarkSky you can use a proxy server to consume the API and then 
 - Register at https://darksky.net/dev/ to get you **Api Key**
 - Local development: create a `now-secrets.json`file and insert your **Darksky API key**, check [Now Env documentation](https://github.com/zeit/now-env) for details
 - Run the microservice locally locally with `npm run dev`: you should see a message  
- `> Ready! Listening on http://0.0.0.0:3001`
+ `> Ready! Listening on http://localhost:3001`
 - Test it here: current temperature for [Berlin (54.62, 8.96)](https://localhost:3001/?54.62,8.96).
-- To deploy your own Darksky proxy to [Now](https://zeit.co/now) edit `now.json` and change name/alias. With the *Now-Cli* save your secret `now secret add darksky-api-key YOUR_API_KEY`.
+- To deploy your own Darksky proxy to [Now](https://zeit.co/now) edit `now.json` and change name/alias.  
+With the *Now-Cli* save your secret `now secret add darksky-api-key YOUR_API_KEY`.  
 You should see a message   
 `> Success! Secret darksky-api-key added!`.  
- You can deploy your proxy using `now`
+ You can deploy your proxy using `now` or `npx now`
 
 
